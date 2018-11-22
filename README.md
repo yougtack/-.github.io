@@ -10,4 +10,5 @@
   
 <img>![1](https://user-images.githubusercontent.com/45065552/48903188-2bb00700-ee9e-11e8-8020-3241fcb8cb80.JPG)</img>
 
+그러다가 소스트리를 발견하고 친구들이랑 같이 끙끙대다 뭔소리인지몰라서 다른 방법을 찾았습니다. 
 </div>
