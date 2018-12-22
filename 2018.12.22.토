@@ -1,0 +1,60 @@
+연습문제 이어서 할겠습니다.
+
+[2-5] 다음 문장들의 출력결과를 적으세요. 오류가 있는 문장의 경우, 괄호 안에 ‘오 류’라고 적으시오.
+System.out.println(“1” + “2”) →(12). // 따음표 안에 있는 거는 문자로 처리한다. 
+System.out.println(true + “”) →(true). 
+System.out.println(‘A' + 'B') →(131) //A가 아스키코드값으로 65이다 B는 66이므로 65+66=131
+System.out.println('1' + 2) →(51) // '1'이 아스키 코드값으로 49이다 49+2=51
+System.out.println('1' + '2') →(99) //'1'이 49였다면 '2'는 50이다. 49+50=99
+System.out.println('J' + “ava”) →(JAVA) 
+System.out.println(true + null) →(오 류) 
+
+[2-6] 다음 중 키워드가 아닌 것은?(모두 고르시오)
+    a. if
+    b. True
+    c. NULL
+    d. Class
+    e. System
+    
+    d, e 번은 객체관련된 걸로 알고 있다.
+    
+    [2-7] 다음 중 변수의 이름으로 사용할 수 있는 것은? (모두 고르시오) 
+    a. $ystem
+    b. channel#5 c. 7eleven d. If
+    e. 자바
+    f. new
+    g. $MAX_NUM
+    h. hello@com
+    
+    변수에는 _와 $의 특수기호만 사용가능하다. a, g
+    
+    [2-8] 참조형 변수(reference type)와 같은 크기의 기본형(primitive type)은? (모두 고르시오)
+    a. int
+    b. long
+    c. short
+    d. float
+    e. double
+    
+    a,d    b,e
+    
+   [2-9] 다음 중 형변환을 생략할 수 있는 것은? (모두 고르시오)
+    byte b = 10;
+    char ch = 'A';
+    int i = 100;
+    long l = 1000L;
+   
+    a. b = (byte)i;
+    b. ch = (char)b;
+    c. short s = (short)ch;
+    d. float f = (float)l;
+    e. i = (int)ch;
+    
+    d long형인 l을 실수형인 float 형으로 바꿔봤자 소수점만 늘어날 뿐이다 그래서 d번은 굳이 형변환을 안해도 될 것 같다.
+    
+   [2-10] char타입의 변수에 저장될 수 있는 정수 값의 범위는? (10진수로 적으시오)
+    char형은 2byte이다. 1byte=8bit 2byte=18bit  2의16승개이다. 값 구하는건 솔직히 계산기로 했다..
+    65536 이다. 0포함하면 0~65565
+    
+    
+    
+    
