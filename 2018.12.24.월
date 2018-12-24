@@ -1,0 +1,45 @@
+우와 내일 크리스마스다!
+
+1.문제 이어서
+2.형변환
+
+(1)---------------------------------------------
+  [2-11] 다음중 변수를 잘못 초기화 한 것은? (모두 고르시오)
+   a. byte b = 256;
+   b. char c = '';
+   c. char answer = 'no';
+   d. float f = 3.14
+   e. double d = 1.4e3f;
+   
+   byte는 64까지 저장 가능한 것으로 알고 있다.  또한 char형은 글자 하나 이거나 공백이 가능하다. 하지만 작은 따음표가 아닌 큰따음표만 가능하다. 
+   float형은 숫자뒤에 f를 표기해야학 double형은 d를 붙여도 되고 안붙여도 되는데 f를 붙여서 오류가난다.
+   a, b, c, d, e (뭐지 다틀린건가?)
+   
+   
+
+  [2-12] 다음 중 main메서드의 선언부로 알맞은 것은? (모두 고르시오)
+  a. public static void main(String[] args)
+  b. public static void main(String args[])
+  c. public static void main(String[] arv)
+  d. public void static main(String[] args) 
+  e. static public void main(String[] args)
+  
+  이건 외워야하는 것 같다. a번
+  
+  [2-13] 다음 중 타입과 기본값이 잘못 연결된 것은? (모두 고르시오) 
+  a. boolean - false
+  b. char - '\u0000'
+  c. float - 0.0
+  d. int - 0
+  e. long - 0
+  f. String - ""
+  
+  b번 char형 안에는 1글자나 공백 이 가능(큰따음표 일때만)
+  
+  (2)-------------------------------------------
+  
+  형변환이란? 선언한 자료형을 다른 형태로 변환하는 것이다.
+  예를 들면 int a =10; 을 했다 근데 무슨 이유인지 나는 이 a를 float형으로 출력을 하고싶을때 사용한다. 
+  사용방법은 System.out.println((float)a); 으로 사용한다.  값은 10.0으로 출력이 될것이다
+  형변환 하고싶은 자료형을 println안 괄호를 만들고 그안에 써준다. 
+ 
