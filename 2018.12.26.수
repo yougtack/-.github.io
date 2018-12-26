@@ -1,0 +1,33 @@
+진다문제
+
+Programming! It's fun. 를 출력해라.
+System.out.println 을 사용하여 출력한다.
+
+My name is Hong Gil Dong.
+I am 13 years old.
+이것도 System.out.println을 사용하여 출력
+
+My height
+170
+My weight
+68.600000
+
+푸는법은 다양하겠지만 나는 170을 int형으로 선언하고 68.6은 double형으로 선언하였다. 
+System.out.printf("My height\n%d\nMy weight\n%f",height,weight);줄바꿈은 제어문자를 사용했다.
+추가로 double형말고 float형을 사용하면 68.600000이 안나오고 소수점이 다르게 나온다.
+
+1.4문제는 
+
+  	System.out.println("      item     count     price");
+		System.out.println("       pen        20       100");
+		System.out.println("      note         5        95");
+		System.out.println("    eraser       110        97"); 이거처럼 println 4개를 사용하여 출력하였다.
+    
+1.5문제는
+  진단문제 주제가 printf, print println을 사용하는 것이여서 1.4문제 처럼 풀었다.
+  
+		System.out.println("          Seoul     10,312,545        +91,375");
+		System.out.println("          Pusan      3,567,910         +5,868");
+		System.out.println("        Inchoen      2,758,296        +64,888");
+		System.out.println("          Daegu      2,511,676        +17,230");
+		System.out.println("        Gwangju      1,454,636        +29,774");
