@@ -35,7 +35,7 @@ System.out.println(true + null) →(오 류)
     d. float
     e. double
     
-    a,d    b,e
+    a,d
     
    [2-9] 다음 중 형변환을 생략할 수 있는 것은? (모두 고르시오)
     byte b = 10;
