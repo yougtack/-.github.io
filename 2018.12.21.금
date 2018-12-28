@@ -48,8 +48,7 @@
     c. double
     d. boolean
     
-    d번이다 왜냐하면 d번은 기본형이 아니라 논리형이기 때문이다. 논리형은 turn 나 flase를 구분한다.
-  
+    b번 byte는 정수형이다. 정수형의 기본형은 int이다.  
                             
                            
                    
