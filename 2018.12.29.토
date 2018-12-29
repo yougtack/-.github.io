@@ -1,0 +1,305 @@
+[1-1]
+package ch02;
+
+public class ch02Ex01_01 {
+	public static void main(String [] args) {
+		System.out.println("programming! it's fun");
+	}
+}
+[1-2]
+
+package ch02;
+
+public class Ch02Ex01_03 {
+	public static void main(String [] args) {
+		int height = 170;
+		double weight = 68.6;
+		System.out.printf("My height\n%d\nMy weight\n%f",height,weight);
+			}
+}
+[1-3]
+
+package ch02;
+
+public class Ch02Ex01_04 {
+	public static void main(String [] args) {
+		System.out.println("      item     count     price");
+		System.out.println("       pen        20       100");
+		System.out.println("      note         5        95");
+		System.out.println("    eraser       110        97");
+		}
+}
+[1-4]
+
+package ch02;
+
+public class Ch02Ex01_05 {
+	public static void main(String [] args) {
+    System.out.println("          Seoul     10,312,545        +91,375");
+		System.out.println("          Pusan      3,567,910         +5,868");
+		System.out.println("        Inchoen      2,758,296        +64,888");
+		System.out.println("          Daegu      2,511,676        +17,230");
+		System.out.println("        Gwangju      1,454,636        +29,774");
+  	}
+}            
+솔직히 큰2번 문제로 넘어가기 전까진 어려움없었는데.. 큰 2번 문제부터는 스캐너만 사용 하더라고요..
+
+[2-0]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex01_06 {
+	public static void main(String [] args) {
+		int sum = 90 + 80 + 100;
+		int avg = (90 + 80 + 100)/3;
+	
+    Scanner scan = new Scanner(System.in);
+		System.out.printf("kor=");
+		String input = scan.nextLine();
+	
+  Scanner scanf =new Scanner(System.in);
+		System.out.printf("mat=");
+		String input2 = scanf.nextLine();
+	
+    Scanner scan2 =new Scanner(System.in);
+		System.out.printf("eng=");
+		String input3 = scan2.nextLine();
+	
+  System.out.println("sum="+sum);
+		System.out.println("abg="+avg);
+	  	}
+}
+[2-1]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_02 {
+	public static void main(String [] args) {
+		Scanner scan1 = new Scanner(System.in);
+	
+		String input = scan1.nextLine();
+		System.out.printf(input);
+	  }
+}
+[2-2]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_03 {
+	public static void main(String [] args) {
+		Scanner scan1 = new Scanner(System.in);
+		String input = scan1.nextLine();
+		System.out.println(input);
+		
+		Scanner scan2 = new Scanner(System.in);
+		String input1 = scan2.nextLine();
+		System.out.println(input1);
+	}
+}
+[2-3]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_04 {
+	public static void main(String [] args) {
+		Scanner scan1 = new Scanner(System.in);
+		String input1 = scan1.nextLine();
+		int num1 = Integer.parseInt(input1);
+		Scanner scan2 = new Scanner(System.in);
+		String  input2 = scan2.nextLine();
+		int num2 = Integer.parseInt(input2);
+		System.out.println(input1+"-"+input2+"="+(num1-num2));
+		
+		Scanner scan3 = new Scanner(System.in);
+		String input3 = scan3.nextLine();
+		int num3 = Integer.parseInt(input3);
+		Scanner scan4 = new Scanner(System.in);
+		String  input4 = scan4.nextLine();
+		int num4 = Integer.parseInt(input4);
+		System.out.println(input3+"-"+input4+"="+(num3-num4));
+		}
+}
+[2-4]
+package ch02;
+import java.util.Scanner;
+public class Ch02Ex02_05 {
+	  public static void main(String []args) {
+  	Scanner scan1 = new Scanner(System.in);
+		int input1 = scan1.nextInt();
+	
+		Scanner scan2 = new Scanner(System.in);
+		double input2 = scan2.nextDouble();
+		
+		System.out.printf("%d * %.6f = %.6f",input1,input2,(input1*input2));
+		}
+}
+  먼저 여기서 멘붕이 왔다. 지금까지 나는 자바에서 정수형으로만 입력을 받았는데 갑자기 실수형으로 입력 받으라니.. 너무 충격적 이여서 30분동안은 멍때린것 같다.
+  그래서 만능구글형님에게 자바 스캐너 실수형 쳐서 쓰는법을 알아냈다!. 그냥 맨날쓰던 String ___ = ___.nextLine  에서 스트링이랑 라인을 자기가 쓰고 싶은 
+  자료형으로 바꿔주면 됀다.
+[2-5]
+package ch02;
+import java.util.Scanner;
+public class Ch02Ex02_06 {
+	public static void main(String [] args) {
+		double OneYd=91.44;
+		double OneIn=2.54;
+		
+		Scanner scan1 = new Scanner(System.in);
+		double input1 = scan1.nextDouble();
+		
+		System.out.printf("%4.1fyd = %4.1fcm\n",input1,(input1*OneYd));
+
+		Scanner scan2 = new Scanner(System.in);
+		double input2 = scan2.nextDouble();
+		
+		System.out.printf("%4.1fin =  %4.1fcm",input2,(input2*OneIn));
+		}
+}
+[2-6]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_07 {
+	public static void main(String [] args) {
+		System.out.printf("height = ");
+		Scanner scan1 = new Scanner(System.in);
+		int input1 = scan1.nextInt();
+	
+		System.out.printf("Your height is %dcm.",input1);
+		}
+}
+[2-7]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_08 {
+	public static void main(String [] args) {
+		Scanner scan1 = new Scanner(System.in);
+		double input1 = scan1.nextDouble();
+		
+		Scanner scan2= new Scanner(System.in);
+		double input2 = scan2.nextDouble();
+		
+		Scanner scan3 = new Scanner(System.in);
+		char input3 = scan3.next().charAt(0);
+		
+		System.out.printf("%.2f\n%.2f\n%s",input1,input2,input3);
+	    }
+ }
+여기서 또 멘붕이 왔다. 앞에 문제들은 다 비슷비슷해서 금방 했는데 이문제에선 갑자기 문자를 출력하라는 것이다. 그래서 그냥 String ___ = ___.nextLine  하고 
+키보드로 A쳣더니 에러가 뜬다.. 이번에도 구글 형님의 힘을 빌렸다.. 자바 스캐너 문자를 쳐서 답을 알아냈는데 이 문자 친구는 쓰는법이 정말 더러웠다. 자바에서는 스캐너에
+직접적으로 문자가 입력이 안되서 어느공간에다 넣어둔 다음 꺼내써야한다. 사용방법은 char ____ = ____.next(),charAt(0)이다. 여기서 charAt가 궁금해서 
+찾아보니깐 charAt(인수) 라고 한다. 만약 "abcde" 에서 charAt(2)를 하면 c가 출력이 된다. 공간은 0부터 시작하기 때문에 0이 a이다.
+[2-8]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_09 {
+	public static void main(String [] args) {
+	Scanner scan1 = new Scanner(System.in);
+    float input1 = scan1.nextFloat();
+	
+    Scanner scan2 = new Scanner(System.in);
+	float input2 = scan2.nextFloat();	
+	
+	Scanner scan3 = new Scanner(System.in);
+	double input3 = scan3.nextDouble();
+	
+	System.out.printf("%.3f\n%.3f\n%.3f",input1,input2,input3);
+	}
+}
+[2-9]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_10 {
+	public static void main(String [] args) {
+		Scanner scan1 = new Scanner(System.in);
+		int input1 = scan1.nextInt();
+	
+		Scanner scan2 = new Scanner(System.in);
+		int input2 = scan2.nextInt();
+		
+		System.out.printf("%d + %d = %d",input1,input2,(input1+input2));
+			}
+}
+[2-10]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_11 {
+	public static void main(String [] args) {
+		Scanner scan1 = new Scanner(System.in);
+		double input1 = scan1.nextDouble();
+		
+		Scanner scan2 = new Scanner(System.in);
+		double input2 = scan2.nextDouble();
+		
+		System.out.printf("%10.2f%10.2f%10.2f",input1,input2,(input1+input2));
+		}
+}
+[2-11]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_12 {
+	public static void main(String [] args) {
+		Scanner scan1 = new Scanner(System.in);
+		int input1 = scan1.nextInt();
+		Scanner scan2 = new Scanner(System.in);
+		double input2 = scan2.nextDouble();
+		
+		System.out.printf("%.2f * %d = %.0f",input2,input1,(input1*input2));
+		}
+}
+[2-12]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_13 {
+	public static void main(String [] args) {
+		Scanner scan1 = new Scanner(System.in);
+		int input1 = scan1.nextInt();
+		Scanner scan2 = new Scanner(System.in);
+		int input2 = scan2.nextInt();
+		Scanner scan3 = new Scanner(System.in);
+		int input3 = scan3.nextInt();
+		
+		System.out.printf("sum = %d\n",(input1+input2+input3));
+		System.out.printf("avg = %d",(input1+input2+input3)/3);
+			}
+}
+[2-13]
+package ch02;
+
+import java.util.Scanner;
+
+public class Ch02Ex02_14 {
+	public static void main(String [] args) {
+		double OneYd=91.44;
+		System.out.printf("yard? ");
+	
+		Scanner scan1 = new Scanner(System.in);
+		double input1 = scan1.nextDouble();
+
+		System.out.printf("%.1fyard = %.1fcm",input1,(input1*OneYd));
+			}
+
+}
+
+실수형 으로 스캐너 받는 법과 문자를 스캐너 받는방법을 알게 되니 문제를 금방 풀 수 있게 되었다. 
+또한 새로운 스캐너받는 방법을 알아서 재미있엇다.
+
+
+
