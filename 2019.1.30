@@ -1,0 +1,28 @@
+1.String배열 이란
+2.String배열 초기화 하는 방법
+3.char배열과 String클래스
+
+(1)-----------------------------
+String은 문자열이다. 즉 말그대로 문자열의 배열인 것이다. 그래서 배열 선언방법은 int배열과 동일하다. String[] 이름 =  new String[원하는 요소 수]
+또한 String은 참조형 변수이기 때문에 null이 기본값이 되어 각 요소들은 null로 초기화가 된다.
+(2)-----------------------------
+String배열을 초기화하는 방법은 2가지가 있다.
+첫번째. String[] name = new String[]{"ab","cd","ef"};
+각 요소마다 큰따음표를 붙여줘야한다. 
+
+두번째. String[] name = new String[3];
+name[0] = new String("ab"); //new String은 생략이 가능하다.
+name[1] = new String("cd");
+name[2] = new String("ef");
+
+(3)----------------------------
+  자바에서 char배열이 아닌 String클래스를 이용해서 문자열을 처리하는 이유는 String클래스가 char배열에 여러가지 기능을 추가하여 확장한 것이기 때문이다.
+  그래서 char배열을 사용하는 것보다는 String클래스를 사용하는 것이 문자열을 다루기 더 쉽다. 
+
+
+
+
+
+
+ 
+
